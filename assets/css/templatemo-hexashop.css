@@ -2386,14 +2386,14 @@ responsive
 
 #preloader {
   overflow: hidden;
-  background-color: #2a2a2a;
+  /*background-color: #2a2a2a;*/
   left: 0;
   right: 0;
   top: 0;
   bottom: 0;
   position: fixed;
   z-index: 99999;
-  color: #fff;
+  color: #2a2a2a;
 }
 
 #preloader .jumper {
@@ -2417,8 +2417,6 @@ responsive
   animation-fill-mode: both;
   position: absolute;
   opacity: 0;
-  width: 50px;
-  height: 50px;
   -webkit-animation: jumper 1s 0s linear infinite;
   animation: jumper 1s 0s linear infinite;
 }
